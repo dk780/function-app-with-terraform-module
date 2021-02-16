@@ -1,19 +1,15 @@
 # MSI keys , add this details to backend.tf file if there is any change in value
 variable "subscription_id" {
   description = "Subscription ID"
-  default     = "ed873cb3-9ca1-49a4-ba77-3405a6d50ab8"
 }
 variable "client_id" {
   description = "App Id"
-  default     = "daeb73a7-2cf1-46d9-911a-88f03459a4a5"
 }
 variable "client_secret" {
   description = "Key for Service principal"
-  default     = "pLTAF8uCzatmg6r-1b-_VTaprmy_0DdV1V"
 }
 variable "tenant_id" {
   description = "Tenant ID from AD"
-  default     = "bde07727-35a5-419d-ac56-c87285c1dfee"
 }
 
 
